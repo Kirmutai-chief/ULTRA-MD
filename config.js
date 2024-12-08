@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '+254114299761';
+const defaultOwner = '254726039829';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -20,11 +20,11 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.botNumber = process.env.BOT_NUMBER || '+254114299761';
+global.botNumber = process.env.BOT_NUMBER || '254726039829';
 
 global.mods = []
 global.prems = []
-global.allowed = ['254114299761', '254114299761']
+global.allowed = ['254726039829', '254114299761']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
